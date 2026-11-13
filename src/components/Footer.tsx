@@ -26,6 +26,11 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link href="/lon-efter-skatt" className="hover:text-[#0B4F3F] hover:underline">
+                  Kommunalskatt {SITE_CONFIG.year} (alla 290 kommuner)
+                </Link>
+              </li>
             </ul>
           </div>
 

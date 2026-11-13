@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { InstallmentCalculator } from "@/components/calculators/InstallmentCalculator";
 import { FaqSection, type FaqItem } from "@/components/FaqSection";
+import { buildBreadcrumbJsonLd, buildPageMetadata, buildWebAppJsonLd } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Delbetalningsfällan – Räkna ut effektiv ränta & totalkostnad",
   description:
     "Vad kostar ”räntefri” delbetalning eller Klarna-konto egentligen? Räkna ut effektiv årsränta, dolda aviavgifter och hur många extra timmar du får jobba.",
-};
+  path: "/delbetalning",
+});
 
 const FAQ_ITEMS: FaqItem[] = [
   {
@@ -28,8 +30,25 @@ const FAQ_ITEMS: FaqItem[] = [
 ];
 
 export default function DelbetalningPage() {
+  const jsonLd = [
+    buildBreadcrumbJsonLd([
+      { name: "Hem", path: "/" },
+      { name: "Delbetalning & effektiv ränta", path: "/delbetalning" },
+    ]),
+    buildWebAppJsonLd({
+      name: "Delbetalningsfällan – Effektiv ränta-kalkylator",
+      description:
+        "Räkna ut effektiv årsränta (APR), aviavgifter och extra arbetstid på delbetalningar.",
+      path: "/delbetalning",
+    }),
+  ];
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <nav aria-label="Brödsmulor" className="mb-4 text-xs font-medium text-stone-500">
         <Link href="/" className="hover:text-[#0B4F3F] hover:underline">
           Hem

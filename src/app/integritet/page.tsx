@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { buildPageMetadata } from "@/lib/seo";
 import { SITE_CONFIG } from "@/lib/siteConfig";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Integritetspolicy & Ansvarsfriskrivning",
   description: `Läs om hur ${SITE_CONFIG.name} hanterar integritet, GDPR och juridisk ansvarsfriskrivning.`,
-};
+  path: "/integritet",
+});
 
 export default function IntegritetPage() {
   return (

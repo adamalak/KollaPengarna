@@ -1,4 +1,9 @@
 import { describe, expect, it } from "vitest";
+import {
+  getMunicipalityBySlug,
+  getMunicipalityInsights,
+  RANKED_MUNICIPALITIES_2026,
+} from "../../municipalSeo";
 import { calculateCompoundIsk, ISK_2026 } from "../compound";
 import { calculateCsn, getCsnFribelopp2026 } from "../csn";
 import { calculateCsnRepayment } from "../csnRepayment";
@@ -197,5 +202,30 @@ describe("Compound / ISK 2026 calculator", () => {
     expect(ISK_2026.taxFreeLimit).toBe(300000);
     expect(withTax.totalIskTaxPaid).toBeGreaterThan(0);
     expect(withTax.finalBalance).toBeLessThan(noTax.finalBalance);
+  });
+});
+
+describe("Programmatic Municipal SEO (290 municipalities)", () => {
+  it("generates 290 strictly unique non-empty ASCII slugs", () => {
+    expect(RANKED_MUNICIPALITIES_2026.length).toBe(290);
+    const slugs = new Set(RANKED_MUNICIPALITIES_2026.map((m) => m.slug));
+    expect(slugs.size).toBe(290);
+    for (const s of slugs) {
+      expect(s).toMatch(/^[a-z0-9-]+$/);
+    }
+  });
+
+  it("ranks Österåker #1 (lowest) and Dorotea #290 (highest) with unique insights", () => {
+    const osteraker = getMunicipalityBySlug("osteraker");
+    const dorotea = getMunicipalityBySlug("dorotea");
+    expect(osteraker?.taxRankLowestFirst).toBe(1);
+    expect(dorotea?.taxRankLowestFirst).toBe(290);
+
+    const lowInsights = getMunicipalityInsights(osteraker!);
+    const highInsights = getMunicipalityInsights(dorotea!);
+    expect(lowInsights.annualDiffVsNational35k).toBeGreaterThan(0);
+    expect(highInsights.annualDiffVsNational35k).toBeLessThan(0);
+    expect(lowInsights.faqs[0].question).toContain("Österåker");
+    expect(highInsights.faqs[0].question).toContain("Dorotea");
   });
 });

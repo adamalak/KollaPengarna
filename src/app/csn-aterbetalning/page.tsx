@@ -2,13 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { CsnRepaymentCalculator } from "@/components/calculators/CsnRepaymentCalculator";
 import { FaqSection, type FaqItem } from "@/components/FaqSection";
+import { buildBreadcrumbJsonLd, buildPageMetadata, buildWebAppJsonLd } from "@/lib/seo";
 import { SITE_CONFIG } from "@/lib/siteConfig";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "CSN Återbetalning 2026 – Räkna ut månadskostnad & ränta (2,135 %)",
   description:
     "Räkna ut vad ditt CSN-studielån kostar i månaden 2026 med räntan 2,135 %. Se total räntekostnad, slutår och vad extraamortering sparar.",
-};
+  path: "/csn-aterbetalning",
+});
 
 const FAQ_ITEMS: FaqItem[] = [
   {
@@ -29,8 +31,25 @@ const FAQ_ITEMS: FaqItem[] = [
 ];
 
 export default function CsnAterbetalningPage() {
+  const jsonLd = [
+    buildBreadcrumbJsonLd([
+      { name: "Hem", path: "/" },
+      { name: `CSN Återbetalning ${SITE_CONFIG.year}`, path: "/csn-aterbetalning" },
+    ]),
+    buildWebAppJsonLd({
+      name: `CSN Återbetalning-kalkylator ${SITE_CONFIG.year}`,
+      description:
+        "Beräkna månadskostnad, räntekostnad och slutår för CSN-lån med 2026 års ränta 2,135 %.",
+      path: "/csn-aterbetalning",
+    }),
+  ];
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <nav aria-label="Brödsmulor" className="mb-4 text-xs font-medium text-stone-500">
         <Link href="/" className="hover:text-[#0B4F3F] hover:underline">
           Hem

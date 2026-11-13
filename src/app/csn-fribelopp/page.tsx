@@ -4,13 +4,15 @@ import { CsnCalculator } from "@/components/calculators/CsnCalculator";
 import { FaqSection, type FaqItem } from "@/components/FaqSection";
 import { CSN_2026_FRIBELOPP_ANCHORS } from "@/lib/calculators/csn";
 import { formatSEK } from "@/lib/format";
+import { buildBreadcrumbJsonLd, buildPageMetadata, buildWebAppJsonLd } from "@/lib/seo";
 import { SITE_CONFIG } from "@/lib/siteConfig";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "CSN Fribelopp-kalkylator 2026 – Räkna ut hur mycket du får tjäna",
   description:
     "Räkna ut ditt exakta fribelopp hos CSN för 2026. Se hur mycket du får tjäna vid 100 %, 75 % eller 50 % studietakt och exakt vad som dras vid överträdelse.",
-};
+  path: "/csn-fribelopp",
+});
 
 const FAQ_ITEMS: FaqItem[] = [
   {
@@ -36,8 +38,25 @@ const FAQ_ITEMS: FaqItem[] = [
 ];
 
 export default function CsnFribeloppPage() {
+  const jsonLd = [
+    buildBreadcrumbJsonLd([
+      { name: "Hem", path: "/" },
+      { name: `CSN Fribelopp ${SITE_CONFIG.year}`, path: "/csn-fribelopp" },
+    ]),
+    buildWebAppJsonLd({
+      name: `CSN Fribelopp-kalkylator ${SITE_CONFIG.year}`,
+      description:
+        "Räkna ut fribelopp och 61 %-avdrag hos CSN för 2026 vid heltid och deltid.",
+      path: "/csn-fribelopp",
+    }),
+  ];
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <nav aria-label="Brödsmulor" className="mb-4 text-xs font-medium text-stone-500">
         <Link href="/" className="hover:text-[#0B4F3F] hover:underline">
           Hem

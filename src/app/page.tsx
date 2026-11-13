@@ -1,6 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { buildPageMetadata } from "@/lib/seo";
 import { SITE_CONFIG } from "@/lib/siteConfig";
+
+export const metadata: Metadata = buildPageMetadata({
+  title: `${SITE_CONFIG.domainLabel} – Gratis svenska ekonomikalkylatorer ${SITE_CONFIG.year}`,
+  description: SITE_CONFIG.tagline,
+  path: "/",
+});
 
 const BENCHMARKS_2026 = [
   { label: "CSN fribelopp (20 v heltid)", value: "114 676 kr / halvår", href: "/csn-fribelopp" },
@@ -86,6 +94,14 @@ export default function HomePage() {
           <p className="mt-2 text-sm leading-relaxed text-stone-600">
             Samtliga belopp är hämtade från Skatteverket, CSN och SCB för inkomståret{" "}
             {SITE_CONFIG.year}. Klicka på en rad för att öppna tillhörande kalkylator.
+          </p>
+          <p className="mt-4">
+            <Link
+              href="/lon-efter-skatt"
+              className="text-sm font-semibold text-[#0B4F3F] hover:underline"
+            >
+              Jämför kommunalskatt i alla 290 kommuner &rarr;
+            </Link>
           </p>
         </div>
 
