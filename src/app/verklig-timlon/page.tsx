@@ -83,6 +83,20 @@ export default function VerkligTimlonPage() {
           Se alla 290 kommuners skatt {SITE_CONFIG.year} &rarr;
         </Link>
       </div>
+
+      <div className="mt-4 flex flex-wrap items-center justify-between gap-4 rounded-lg border border-[#DDD9CE] bg-[#FAF9F6] p-5">
+        <p className="text-sm text-stone-600">
+          Pendlar du med SL, SJ, Västtrafik, Skånetrafiken eller Mälartåg och drabbas av försening?
+        </p>
+        <a
+          href="https://reseratt.bnms.workers.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm font-semibold text-[#0B4F3F] hover:underline"
+        >
+          Kolla förseningsersättning &amp; taxigaranti på ReseRätt &rarr;
+        </a>
+      </div>
     </div>
   );
 }

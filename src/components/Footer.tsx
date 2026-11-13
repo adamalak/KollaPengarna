@@ -12,6 +12,17 @@ export function Footer() {
               Oberoende svenska kalkylatorer för lön, skatt, CSN och sparande. All beräkning sker
               lokalt i din webbläsare utan databas eller spårning.
             </p>
+            <p className="mt-3 text-xs text-stone-500">
+              Syskonprojekt:{" "}
+              <a
+                href="https://reseratt.bnms.workers.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-[#0B4F3F] underline"
+              >
+                ReseRätt – Ersättning vid tåg- &amp; flygförsening
+              </a>
+            </p>
           </div>
 
           <div>
