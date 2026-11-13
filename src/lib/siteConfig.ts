@@ -1,0 +1,70 @@
+export const SITE_CONFIG = {
+  name: "KollaPengarna",
+  domainLabel: "KollaPengarna.se",
+  tagline: "Svenska ekonomikalkylatorer – utan konto, spårning eller reklamkrångel.",
+  year: 2026,
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://kollapengarna.se",
+  locale: "sv_SE",
+  tools: [
+    {
+      num: "01",
+      slug: "csn-fribelopp",
+      href: "/csn-fribelopp",
+      shortTitle: "CSN Fribelopp",
+      title: "CSN Fribelopp-kalkylator",
+      metricLabel: "Fribelopp 20 v heltid",
+      metricValue: "114 676 kr",
+      description:
+        "Räkna ut hur mycket du får tjäna före skatt innan CSN minskar ditt studiemedel med 61 %.",
+      category: "Studier",
+    },
+    {
+      num: "02",
+      slug: "csn-aterbetalning",
+      href: "/csn-aterbetalning",
+      shortTitle: "CSN Återbetalning",
+      title: "CSN Återbetalning & månadskostnad",
+      metricLabel: "CSN-ränta 2026",
+      metricValue: "2,135 %",
+      description:
+        "Se vad ditt studielån kostar per månad med 2026 års ränta, 2 % årlig uppräkning och total räntekostnad.",
+      category: "Studier",
+    },
+    {
+      num: "03",
+      slug: "verklig-timlon",
+      href: "/verklig-timlon",
+      shortTitle: "Lön & pendling",
+      title: "Lön efter skatt & verklig timlön",
+      metricLabel: "Kommuner i databas",
+      metricValue: "290 st",
+      description:
+        "Beräkna nettolön i samtliga 290 svenska kommuner och se vad pendling i tid och pengar kostar per timme.",
+      category: "Lön & skatt",
+    },
+    {
+      num: "04",
+      slug: "ranta-pa-ranta",
+      href: "/ranta-pa-ranta",
+      shortTitle: "Ränta på ränta & ISK",
+      title: "Ränta på ränta med ISK-skatt",
+      metricLabel: "Skattefri ISK-nivå",
+      metricValue: "300 000 kr",
+      description:
+        "Simulera långsiktigt månadssparande inklusive 2026 års skattefria grundnivå och 1,065 % ISK-skatt.",
+      category: "Sparande",
+    },
+    {
+      num: "05",
+      slug: "delbetalning",
+      href: "/delbetalning",
+      shortTitle: "Delbetalning",
+      title: "Delbetalning & effektiv ränta",
+      metricLabel: "Avslöjar dolda avgifter",
+      metricValue: "Effektiv APR",
+      description:
+        "Räkna ut den verkliga årsräntan bakom ”räntefria” delbetalningar, aviavgifter och uppläggningsavgifter.",
+      category: "Krediter",
+    },
+  ],
+} as const;

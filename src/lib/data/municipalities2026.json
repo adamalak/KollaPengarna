@@ -1,0 +1,1742 @@
+[
+  {
+    "name": "Ale",
+    "municipalTax": 32.8,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.13
+  },
+  {
+    "name": "Alingsås",
+    "municipalTax": 32.84,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.23
+  },
+  {
+    "name": "Alvesta",
+    "municipalTax": 33.42,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.3
+  },
+  {
+    "name": "Aneby",
+    "municipalTax": 33.85,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.42
+  },
+  {
+    "name": "Arboga",
+    "municipalTax": 33.29,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.31
+  },
+  {
+    "name": "Arjeplog",
+    "municipalTax": 34.84,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.25
+  },
+  {
+    "name": "Arvidsjaur",
+    "municipalTax": 34.14,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.25
+  },
+  {
+    "name": "Arvika",
+    "municipalTax": 34.03,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.28
+  },
+  {
+    "name": "Askersund",
+    "municipalTax": 34.15,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.1
+  },
+  {
+    "name": "Avesta",
+    "municipalTax": 33.95,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.24
+  },
+  {
+    "name": "Bengtsfors",
+    "municipalTax": 34.4,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.53
+  },
+  {
+    "name": "Berg",
+    "municipalTax": 34.22,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.56
+  },
+  {
+    "name": "Bjurholm",
+    "municipalTax": 35,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.01
+  },
+  {
+    "name": "Bjuv",
+    "municipalTax": 32.17,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.19
+  },
+  {
+    "name": "Boden",
+    "municipalTax": 33.94,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.95
+  },
+  {
+    "name": "Bollebygd",
+    "municipalTax": 33.07,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.2
+  },
+  {
+    "name": "Bollnäs",
+    "municipalTax": 33.37,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.02
+  },
+  {
+    "name": "Borgholm",
+    "municipalTax": 33.44,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.54
+  },
+  {
+    "name": "Borlänge",
+    "municipalTax": 34.4,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.88
+  },
+  {
+    "name": "Borås",
+    "municipalTax": 32.79,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.23
+  },
+  {
+    "name": "Botkyrka",
+    "municipalTax": 32.23,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.98
+  },
+  {
+    "name": "Boxholm",
+    "municipalTax": 33.37,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.15
+  },
+  {
+    "name": "Bromölla",
+    "municipalTax": 33.74,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.09
+  },
+  {
+    "name": "Bräcke",
+    "municipalTax": 35.09,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.5
+  },
+  {
+    "name": "Burlöv",
+    "municipalTax": 31.27,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.85
+  },
+  {
+    "name": "Båstad",
+    "municipalTax": 31.41,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.31
+  },
+  {
+    "name": "Dals-Ed",
+    "municipalTax": 34.69,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.63
+  },
+  {
+    "name": "Danderyd",
+    "municipalTax": 30.58,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.73
+  },
+  {
+    "name": "Degerfors",
+    "municipalTax": 35.3,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.93
+  },
+  {
+    "name": "Dorotea",
+    "municipalTax": 35.65,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.3
+  },
+  {
+    "name": "Eda",
+    "municipalTax": 34.55,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.32
+  },
+  {
+    "name": "Ekerö",
+    "municipalTax": 31.45,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.95
+  },
+  {
+    "name": "Eksjö",
+    "municipalTax": 34.02,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.5
+  },
+  {
+    "name": "Emmaboda",
+    "municipalTax": 33.82,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.2
+  },
+  {
+    "name": "Enköping",
+    "municipalTax": 33.05,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.18
+  },
+  {
+    "name": "Eskilstuna",
+    "municipalTax": 32.85,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.03
+  },
+  {
+    "name": "Eslöv",
+    "municipalTax": 31.72,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.04
+  },
+  {
+    "name": "Essunga",
+    "municipalTax": 33.05,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.46
+  },
+  {
+    "name": "Fagersta",
+    "municipalTax": 32.99,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.21
+  },
+  {
+    "name": "Falkenberg",
+    "municipalTax": 32.5,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.3
+  },
+  {
+    "name": "Falköping",
+    "municipalTax": 33.43,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.51
+  },
+  {
+    "name": "Falun",
+    "municipalTax": 34.05,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.13
+  },
+  {
+    "name": "Filipstad",
+    "municipalTax": 34.55,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.36
+  },
+  {
+    "name": "Finspång",
+    "municipalTax": 33.7,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.15
+  },
+  {
+    "name": "Flen",
+    "municipalTax": 33.1,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.38
+  },
+  {
+    "name": "Forshaga",
+    "municipalTax": 34.63,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.1
+  },
+  {
+    "name": "Färgelanda",
+    "municipalTax": 34.39,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.22
+  },
+  {
+    "name": "Gagnef",
+    "municipalTax": 34.27,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.23
+  },
+  {
+    "name": "Gislaved",
+    "municipalTax": 33.75,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.18
+  },
+  {
+    "name": "Gnesta",
+    "municipalTax": 32.95,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.31
+  },
+  {
+    "name": "Gnosjö",
+    "municipalTax": 34,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.46
+  },
+  {
+    "name": "Gotland",
+    "municipalTax": 33.6,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.72
+  },
+  {
+    "name": "Grums",
+    "municipalTax": 34.78,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.29
+  },
+  {
+    "name": "Grästorp",
+    "municipalTax": 33.47,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.16
+  },
+  {
+    "name": "Gullspång",
+    "municipalTax": 33.97,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.3
+  },
+  {
+    "name": "Gällivare",
+    "municipalTax": 33.89,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.92
+  },
+  {
+    "name": "Gävle",
+    "municipalTax": 33.77,
+    "burialFee": 0.292,
+    "avgChurchFee": 1
+  },
+  {
+    "name": "Göteborg",
+    "municipalTax": 32.6,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.85
+  },
+  {
+    "name": "Götene",
+    "municipalTax": 33.6,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.36
+  },
+  {
+    "name": "Habo",
+    "municipalTax": 33.93,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.19
+  },
+  {
+    "name": "Hagfors",
+    "municipalTax": 34.3,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.2
+  },
+  {
+    "name": "Hallsberg",
+    "municipalTax": 33.85,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.16
+  },
+  {
+    "name": "Hallstahammar",
+    "municipalTax": 32.69,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.12
+  },
+  {
+    "name": "Halmstad",
+    "municipalTax": 32.38,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.25
+  },
+  {
+    "name": "Hammarö",
+    "municipalTax": 35.05,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.82
+  },
+  {
+    "name": "Haninge",
+    "municipalTax": 31.28,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.85
+  },
+  {
+    "name": "Haparanda",
+    "municipalTax": 33.84,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.03
+  },
+  {
+    "name": "Heby",
+    "municipalTax": 34.21,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.31
+  },
+  {
+    "name": "Hedemora",
+    "municipalTax": 34.15,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.35
+  },
+  {
+    "name": "Helsingborg",
+    "municipalTax": 31.39,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.04
+  },
+  {
+    "name": "Herrljunga",
+    "municipalTax": 33.62,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.37
+  },
+  {
+    "name": "Hjo",
+    "municipalTax": 33.48,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.13
+  },
+  {
+    "name": "Hofors",
+    "municipalTax": 34.37,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.31
+  },
+  {
+    "name": "Huddinge",
+    "municipalTax": 31.71,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.8
+  },
+  {
+    "name": "Hudiksvall",
+    "municipalTax": 33.12,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.1
+  },
+  {
+    "name": "Hultsfred",
+    "municipalTax": 33.77,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.4
+  },
+  {
+    "name": "Hylte",
+    "municipalTax": 33.85,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.62
+  },
+  {
+    "name": "Håbo",
+    "municipalTax": 33.3,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.12
+  },
+  {
+    "name": "Hällefors",
+    "municipalTax": 34.35,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.46
+  },
+  {
+    "name": "Härjedalen",
+    "municipalTax": 34.17,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.85
+  },
+  {
+    "name": "Härnösand",
+    "municipalTax": 34.63,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.47
+  },
+  {
+    "name": "Härryda",
+    "municipalTax": 31.98,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.1
+  },
+  {
+    "name": "Hässleholm",
+    "municipalTax": 32.38,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.24
+  },
+  {
+    "name": "Höganäs",
+    "municipalTax": 30.91,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.06
+  },
+  {
+    "name": "Högsby",
+    "municipalTax": 34.07,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.35
+  },
+  {
+    "name": "Hörby",
+    "municipalTax": 32.26,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.13
+  },
+  {
+    "name": "Höör",
+    "municipalTax": 32.63,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.23
+  },
+  {
+    "name": "Jokkmokk",
+    "municipalTax": 34.29,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.3
+  },
+  {
+    "name": "Järfälla",
+    "municipalTax": 31.52,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.69
+  },
+  {
+    "name": "Jönköping",
+    "municipalTax": 33.4,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.3
+  },
+  {
+    "name": "Kalix",
+    "municipalTax": 33.89,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.98
+  },
+  {
+    "name": "Kalmar",
+    "municipalTax": 33.67,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.23
+  },
+  {
+    "name": "Karlsborg",
+    "municipalTax": 32.8,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.31
+  },
+  {
+    "name": "Karlshamn",
+    "municipalTax": 33.8,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.05
+  },
+  {
+    "name": "Karlskoga",
+    "municipalTax": 34.3,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.93
+  },
+  {
+    "name": "Karlskrona",
+    "municipalTax": 33.69,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.06
+  },
+  {
+    "name": "Karlstad",
+    "municipalTax": 33.55,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.99
+  },
+  {
+    "name": "Katrineholm",
+    "municipalTax": 32.95,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.31
+  },
+  {
+    "name": "Kil",
+    "municipalTax": 34.63,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.11
+  },
+  {
+    "name": "Kinda",
+    "municipalTax": 33,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.32
+  },
+  {
+    "name": "Kiruna",
+    "municipalTax": 34.39,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.99
+  },
+  {
+    "name": "Klippan",
+    "municipalTax": 31.93,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.15
+  },
+  {
+    "name": "Knivsta",
+    "municipalTax": 32.62,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.03
+  },
+  {
+    "name": "Kramfors",
+    "municipalTax": 34.43,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.6
+  },
+  {
+    "name": "Kristianstad",
+    "municipalTax": 32.64,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.22
+  },
+  {
+    "name": "Kristinehamn",
+    "municipalTax": 34.25,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.18
+  },
+  {
+    "name": "Krokom",
+    "municipalTax": 33.87,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.41
+  },
+  {
+    "name": "Kumla",
+    "municipalTax": 33.84,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.03
+  },
+  {
+    "name": "Kungsbacka",
+    "municipalTax": 32.58,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.22
+  },
+  {
+    "name": "Kungsör",
+    "municipalTax": 32.91,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.25
+  },
+  {
+    "name": "Kungälv",
+    "municipalTax": 32.92,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.12
+  },
+  {
+    "name": "Kävlinge",
+    "municipalTax": 29.59,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.07
+  },
+  {
+    "name": "Köping",
+    "municipalTax": 33.04,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.05
+  },
+  {
+    "name": "Laholm",
+    "municipalTax": 32.8,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.25
+  },
+  {
+    "name": "Landskrona",
+    "municipalTax": 31.42,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.04
+  },
+  {
+    "name": "Laxå",
+    "municipalTax": 35,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.39
+  },
+  {
+    "name": "Lekeberg",
+    "municipalTax": 33.73,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.13
+  },
+  {
+    "name": "Leksand",
+    "municipalTax": 33.8,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.36
+  },
+  {
+    "name": "Lerum",
+    "municipalTax": 32.03,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.05
+  },
+  {
+    "name": "Lessebo",
+    "municipalTax": 33.81,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.33
+  },
+  {
+    "name": "Lidingö",
+    "municipalTax": 29.67,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.67
+  },
+  {
+    "name": "Lidköping",
+    "municipalTax": 32.74,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.44
+  },
+  {
+    "name": "Lilla Edet",
+    "municipalTax": 33.85,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.31
+  },
+  {
+    "name": "Lindesberg",
+    "municipalTax": 34.6,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.38
+  },
+  {
+    "name": "Linköping",
+    "municipalTax": 31.75,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.21
+  },
+  {
+    "name": "Ljungby",
+    "municipalTax": 33.07,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.35
+  },
+  {
+    "name": "Ljusdal",
+    "municipalTax": 33.87,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.11
+  },
+  {
+    "name": "Ljusnarsberg",
+    "municipalTax": 33.8,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.38
+  },
+  {
+    "name": "Lomma",
+    "municipalTax": 30.72,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.95
+  },
+  {
+    "name": "Ludvika",
+    "municipalTax": 34.05,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.16
+  },
+  {
+    "name": "Luleå",
+    "municipalTax": 33.84,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.04
+  },
+  {
+    "name": "Lund",
+    "municipalTax": 32.42,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.03
+  },
+  {
+    "name": "Lycksele",
+    "municipalTax": 34.9,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.3
+  },
+  {
+    "name": "Lysekil",
+    "municipalTax": 33.94,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.29
+  },
+  {
+    "name": "Malmö",
+    "municipalTax": 32.42,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.93
+  },
+  {
+    "name": "Malung-Sälen",
+    "municipalTax": 34.45,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.29
+  },
+  {
+    "name": "Malå",
+    "municipalTax": 35.2,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.35
+  },
+  {
+    "name": "Mariestad",
+    "municipalTax": 32.74,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.27
+  },
+  {
+    "name": "Mark",
+    "municipalTax": 32.99,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.37
+  },
+  {
+    "name": "Markaryd",
+    "municipalTax": 33.31,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.31
+  },
+  {
+    "name": "Mellerud",
+    "municipalTax": 34.08,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.5
+  },
+  {
+    "name": "Mjölby",
+    "municipalTax": 33.45,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.15
+  },
+  {
+    "name": "Mora",
+    "municipalTax": 34.32,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.13
+  },
+  {
+    "name": "Motala",
+    "municipalTax": 33.25,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.16
+  },
+  {
+    "name": "Mullsjö",
+    "municipalTax": 34.1,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.24
+  },
+  {
+    "name": "Munkedal",
+    "municipalTax": 34.86,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.31
+  },
+  {
+    "name": "Munkfors",
+    "municipalTax": 34.3,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.1
+  },
+  {
+    "name": "Mölndal",
+    "municipalTax": 31.99,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.82
+  },
+  {
+    "name": "Mönsterås",
+    "municipalTax": 34.07,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.02
+  },
+  {
+    "name": "Mörbylånga",
+    "municipalTax": 34.07,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.55
+  },
+  {
+    "name": "Nacka",
+    "municipalTax": 30.11,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.86
+  },
+  {
+    "name": "Nora",
+    "municipalTax": 34.55,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.46
+  },
+  {
+    "name": "Norberg",
+    "municipalTax": 33.54,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.39
+  },
+  {
+    "name": "Nordanstig",
+    "municipalTax": 34.02,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.27
+  },
+  {
+    "name": "Nordmaling",
+    "municipalTax": 35.1,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.2
+  },
+  {
+    "name": "Norrköping",
+    "municipalTax": 33.3,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.19
+  },
+  {
+    "name": "Norrtälje",
+    "municipalTax": 32.05,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.11
+  },
+  {
+    "name": "Norsjö",
+    "municipalTax": 35.2,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.1
+  },
+  {
+    "name": "Nybro",
+    "municipalTax": 34.19,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.17
+  },
+  {
+    "name": "Nykvarn",
+    "municipalTax": 32.3,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.08
+  },
+  {
+    "name": "Nyköping",
+    "municipalTax": 32.25,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.42
+  },
+  {
+    "name": "Nynäshamn",
+    "municipalTax": 32.18,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.95
+  },
+  {
+    "name": "Nässjö",
+    "municipalTax": 34.3,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.99
+  },
+  {
+    "name": "Ockelbo",
+    "municipalTax": 34.27,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.21
+  },
+  {
+    "name": "Olofström",
+    "municipalTax": 33.75,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.17
+  },
+  {
+    "name": "Orsa",
+    "municipalTax": 34.3,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.38
+  },
+  {
+    "name": "Orust",
+    "municipalTax": 33.69,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.3
+  },
+  {
+    "name": "Osby",
+    "municipalTax": 33.99,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.07
+  },
+  {
+    "name": "Oskarshamn",
+    "municipalTax": 34.21,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.23
+  },
+  {
+    "name": "Ovanåker",
+    "municipalTax": 33.37,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.21
+  },
+  {
+    "name": "Oxelösund",
+    "municipalTax": 33.05,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.05
+  },
+  {
+    "name": "Pajala",
+    "municipalTax": 34.74,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.26
+  },
+  {
+    "name": "Partille",
+    "municipalTax": 31.36,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.05
+  },
+  {
+    "name": "Perstorp",
+    "municipalTax": 31.99,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.2
+  },
+  {
+    "name": "Piteå",
+    "municipalTax": 33.59,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.01
+  },
+  {
+    "name": "Ragunda",
+    "municipalTax": 34.92,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.5
+  },
+  {
+    "name": "Robertsfors",
+    "municipalTax": 35,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.17
+  },
+  {
+    "name": "Ronneby",
+    "municipalTax": 33.68,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.12
+  },
+  {
+    "name": "Rättvik",
+    "municipalTax": 33.8,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.32
+  },
+  {
+    "name": "Sala",
+    "municipalTax": 33.19,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.21
+  },
+  {
+    "name": "Salem",
+    "municipalTax": 32,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.85
+  },
+  {
+    "name": "Sandviken",
+    "municipalTax": 33.12,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.15
+  },
+  {
+    "name": "Sigtuna",
+    "municipalTax": 31.83,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.97
+  },
+  {
+    "name": "Simrishamn",
+    "municipalTax": 31.69,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.34
+  },
+  {
+    "name": "Sjöbo",
+    "municipalTax": 32.1,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.12
+  },
+  {
+    "name": "Skara",
+    "municipalTax": 33.38,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.26
+  },
+  {
+    "name": "Skellefteå",
+    "municipalTax": 34.45,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.15
+  },
+  {
+    "name": "Skinnskatteberg",
+    "municipalTax": 33.34,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.35
+  },
+  {
+    "name": "Skurup",
+    "municipalTax": 31.6,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.23
+  },
+  {
+    "name": "Skövde",
+    "municipalTax": 33.09,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.33
+  },
+  {
+    "name": "Smedjebacken",
+    "municipalTax": 34.44,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.23
+  },
+  {
+    "name": "Sollefteå",
+    "municipalTax": 34.68,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.47
+  },
+  {
+    "name": "Sollentuna",
+    "municipalTax": 30.45,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.8
+  },
+  {
+    "name": "Solna",
+    "municipalTax": 29.7,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.69
+  },
+  {
+    "name": "Sorsele",
+    "municipalTax": 35.45,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.35
+  },
+  {
+    "name": "Sotenäs",
+    "municipalTax": 33.47,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.33
+  },
+  {
+    "name": "Staffanstorp",
+    "municipalTax": 30.12,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.03
+  },
+  {
+    "name": "Stenungsund",
+    "municipalTax": 33.12,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.2
+  },
+  {
+    "name": "Stockholm",
+    "municipalTax": 30.55,
+    "burialFee": 0.07,
+    "avgChurchFee": 0.89
+  },
+  {
+    "name": "Storfors",
+    "municipalTax": 34.98,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.33
+  },
+  {
+    "name": "Storuman",
+    "municipalTax": 34.95,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.38
+  },
+  {
+    "name": "Strängnäs",
+    "municipalTax": 32.5,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.26
+  },
+  {
+    "name": "Strömstad",
+    "municipalTax": 33.39,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.22
+  },
+  {
+    "name": "Strömsund",
+    "municipalTax": 34.92,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.5
+  },
+  {
+    "name": "Sundbyberg",
+    "municipalTax": 31.58,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.72
+  },
+  {
+    "name": "Sundsvall",
+    "municipalTax": 33.88,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.34
+  },
+  {
+    "name": "Sunne",
+    "municipalTax": 33.75,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.31
+  },
+  {
+    "name": "Surahammar",
+    "municipalTax": 33.19,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.18
+  },
+  {
+    "name": "Svalöv",
+    "municipalTax": 31.92,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.31
+  },
+  {
+    "name": "Svedala",
+    "municipalTax": 31.42,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.95
+  },
+  {
+    "name": "Svenljunga",
+    "municipalTax": 33.53,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.47
+  },
+  {
+    "name": "Säffle",
+    "municipalTax": 33.8,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.28
+  },
+  {
+    "name": "Säter",
+    "municipalTax": 34.3,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.3
+  },
+  {
+    "name": "Sävsjö",
+    "municipalTax": 33.68,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.25
+  },
+  {
+    "name": "Söderhamn",
+    "municipalTax": 33.17,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.14
+  },
+  {
+    "name": "Söderköping",
+    "municipalTax": 33.53,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.48
+  },
+  {
+    "name": "Södertälje",
+    "municipalTax": 32.38,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.01
+  },
+  {
+    "name": "Sölvesborg",
+    "municipalTax": 33.86,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.99
+  },
+  {
+    "name": "Tanum",
+    "municipalTax": 33.04,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.44
+  },
+  {
+    "name": "Tibro",
+    "municipalTax": 33.19,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.02
+  },
+  {
+    "name": "Tidaholm",
+    "municipalTax": 33.55,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.39
+  },
+  {
+    "name": "Tierp",
+    "municipalTax": 33,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.46
+  },
+  {
+    "name": "Timrå",
+    "municipalTax": 34.38,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.29
+  },
+  {
+    "name": "Tingsryd",
+    "municipalTax": 34,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.5
+  },
+  {
+    "name": "Tjörn",
+    "municipalTax": 33.19,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.27
+  },
+  {
+    "name": "Tomelilla",
+    "municipalTax": 31.79,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.29
+  },
+  {
+    "name": "Torsby",
+    "municipalTax": 34.3,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.29
+  },
+  {
+    "name": "Torsås",
+    "municipalTax": 33.79,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.25
+  },
+  {
+    "name": "Tranemo",
+    "municipalTax": 32.98,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.47
+  },
+  {
+    "name": "Tranås",
+    "municipalTax": 33.77,
+    "burialFee": 0.285,
+    "avgChurchFee": 1.1
+  },
+  {
+    "name": "Trelleborg",
+    "municipalTax": 31.58,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.09
+  },
+  {
+    "name": "Trollhättan",
+    "municipalTax": 33.84,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.24
+  },
+  {
+    "name": "Trosa",
+    "municipalTax": 32.03,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.98
+  },
+  {
+    "name": "Tyresö",
+    "municipalTax": 31.83,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.82
+  },
+  {
+    "name": "Täby",
+    "municipalTax": 29.88,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.78
+  },
+  {
+    "name": "Töreboda",
+    "municipalTax": 33.2,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.27
+  },
+  {
+    "name": "Uddevalla",
+    "municipalTax": 33.64,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.22
+  },
+  {
+    "name": "Ulricehamn",
+    "municipalTax": 32.53,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.35
+  },
+  {
+    "name": "Umeå",
+    "municipalTax": 34.65,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.06
+  },
+  {
+    "name": "Upplands Väsby",
+    "municipalTax": 31.75,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.86
+  },
+  {
+    "name": "Upplands-Bro",
+    "municipalTax": 31.73,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.94
+  },
+  {
+    "name": "Uppsala",
+    "municipalTax": 32.85,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.16
+  },
+  {
+    "name": "Uppvidinge",
+    "municipalTax": 33.8,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.35
+  },
+  {
+    "name": "Vadstena",
+    "municipalTax": 34.35,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.25
+  },
+  {
+    "name": "Vaggeryd",
+    "municipalTax": 33.25,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.12
+  },
+  {
+    "name": "Valdemarsvik",
+    "municipalTax": 34.03,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.35
+  },
+  {
+    "name": "Vallentuna",
+    "municipalTax": 31.23,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.04
+  },
+  {
+    "name": "Vansbro",
+    "municipalTax": 34.28,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.33
+  },
+  {
+    "name": "Vara",
+    "municipalTax": 33.25,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.5
+  },
+  {
+    "name": "Varberg",
+    "municipalTax": 31.73,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.3
+  },
+  {
+    "name": "Vaxholm",
+    "municipalTax": 31.63,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.85
+  },
+  {
+    "name": "Vellinge",
+    "municipalTax": 29.68,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.93
+  },
+  {
+    "name": "Vetlanda",
+    "municipalTax": 33.77,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.36
+  },
+  {
+    "name": "Vilhelmina",
+    "municipalTax": 35.5,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.3
+  },
+  {
+    "name": "Vimmerby",
+    "municipalTax": 34.22,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.35
+  },
+  {
+    "name": "Vindeln",
+    "municipalTax": 35.2,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.22
+  },
+  {
+    "name": "Vingåker",
+    "municipalTax": 33.5,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.05
+  },
+  {
+    "name": "Vårgårda",
+    "municipalTax": 33.09,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.22
+  },
+  {
+    "name": "Vänersborg",
+    "municipalTax": 33.69,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.21
+  },
+  {
+    "name": "Vännäs",
+    "municipalTax": 35.2,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.01
+  },
+  {
+    "name": "Värmdö",
+    "municipalTax": 31.31,
+    "burialFee": 0.292,
+    "avgChurchFee": 1
+  },
+  {
+    "name": "Värnamo",
+    "municipalTax": 33.28,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.41
+  },
+  {
+    "name": "Västervik",
+    "municipalTax": 33.02,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.45
+  },
+  {
+    "name": "Västerås",
+    "municipalTax": 31.24,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.96
+  },
+  {
+    "name": "Växjö",
+    "municipalTax": 32.19,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.05
+  },
+  {
+    "name": "Ydre",
+    "municipalTax": 34.1,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.53
+  },
+  {
+    "name": "Ystad",
+    "municipalTax": 31.29,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.25
+  },
+  {
+    "name": "Åmål",
+    "municipalTax": 33.94,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.27
+  },
+  {
+    "name": "Ånge",
+    "municipalTax": 34.62,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.4
+  },
+  {
+    "name": "Åre",
+    "municipalTax": 33.92,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.4
+  },
+  {
+    "name": "Årjäng",
+    "municipalTax": 34.25,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.67
+  },
+  {
+    "name": "Åsele",
+    "municipalTax": 35.45,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.3
+  },
+  {
+    "name": "Åstorp",
+    "municipalTax": 31.47,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.3
+  },
+  {
+    "name": "Åtvidaberg",
+    "municipalTax": 33.94,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.28
+  },
+  {
+    "name": "Älmhult",
+    "municipalTax": 33.86,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.31
+  },
+  {
+    "name": "Älvdalen",
+    "municipalTax": 34.77,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.65
+  },
+  {
+    "name": "Älvkarleby",
+    "municipalTax": 34.4,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.18
+  },
+  {
+    "name": "Älvsbyn",
+    "municipalTax": 33.79,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.01
+  },
+  {
+    "name": "Ängelholm",
+    "municipalTax": 31.35,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.23
+  },
+  {
+    "name": "Öckerö",
+    "municipalTax": 33.04,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.11
+  },
+  {
+    "name": "Ödeshög",
+    "municipalTax": 33.95,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.15
+  },
+  {
+    "name": "Örebro",
+    "municipalTax": 33.65,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.04
+  },
+  {
+    "name": "Örkelljunga",
+    "municipalTax": 30.24,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.18
+  },
+  {
+    "name": "Örnsköldsvik",
+    "municipalTax": 33.85,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.49
+  },
+  {
+    "name": "Östersund",
+    "municipalTax": 33.72,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.42
+  },
+  {
+    "name": "Österåker",
+    "municipalTax": 28.93,
+    "burialFee": 0.292,
+    "avgChurchFee": 0.74
+  },
+  {
+    "name": "Östhammar",
+    "municipalTax": 33.3,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.4
+  },
+  {
+    "name": "Östra Göinge",
+    "municipalTax": 32.17,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.22
+  },
+  {
+    "name": "Överkalix",
+    "municipalTax": 34.14,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.1
+  },
+  {
+    "name": "Övertorneå",
+    "municipalTax": 33.84,
+    "burialFee": 0.292,
+    "avgChurchFee": 1.2
+  }
+]
