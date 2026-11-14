@@ -9,6 +9,8 @@ export const SITE_CONFIG = {
   year: 2026,
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://kollapengar.se",
   locale: "sv_SE",
+  cloudflareAnalyticsToken:
+    process.env.NEXT_PUBLIC_CF_ANALYTICS_TOKEN || "801fc1dc365140eeaad11c3a52889899",
   tools: [
     {
       num: "01",
