@@ -89,7 +89,7 @@ export default function VerkligTimlonPage() {
           Pendlar du med SL, SJ, Västtrafik, Skånetrafiken eller Mälartåg och drabbas av försening?
         </p>
         <a
-          href="https://reseratt.bnms.workers.dev"
+          href="https://reseratt.se"
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm font-semibold text-[#0B4F3F] hover:underline"

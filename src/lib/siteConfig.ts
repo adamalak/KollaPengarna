@@ -1,9 +1,9 @@
 export const SITE_CONFIG = {
   name: "KollaPengarna",
-  domainLabel: "KollaPengarna.se",
+  domainLabel: "KollaPengar.se",
   tagline: "Svenska ekonomikalkylatorer – utan konto, spårning eller reklamkrångel.",
   year: 2026,
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://kollapengarna.bnms.workers.dev",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://kollapengar.se",
   locale: "sv_SE",
   tools: [
     {

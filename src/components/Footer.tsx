@@ -15,7 +15,7 @@ export function Footer() {
             <p className="mt-3 text-xs text-stone-500">
               Syskonprojekt:{" "}
               <a
-                href="https://reseratt.bnms.workers.dev"
+                href="https://reseratt.se"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium text-[#0B4F3F] underline"

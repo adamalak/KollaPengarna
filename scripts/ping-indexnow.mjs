@@ -5,7 +5,7 @@ const INDEXNOW_KEY = "kollapengarna-2026-indexnow-sv";
 const INDEXNOW_ENDPOINT = "https://api.indexnow.org/indexnow";
 const MAX_URLS_PER_BATCH = 10_000;
 
-const rawSiteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://kollapengarna.bnms.workers.dev";
+const rawSiteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://kollapengar.se";
 const siteUrl = rawSiteUrl.replace(/\/+$/, "");
 const { host } = new URL(siteUrl);
 const keyLocation = `${siteUrl}/${INDEXNOW_KEY}.txt`;

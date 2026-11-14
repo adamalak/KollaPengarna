@@ -30,7 +30,7 @@ npm run build
 
 1. Ladda upp koden till ett GitHub-repo (privat eller publikt).
 2. Koppla repot till **Vercel**, **Cloudflare Pages** eller **Netlify** (alla har gratisnivåer).
-3. Sätt miljövariabeln `NEXT_PUBLIC_SITE_URL` till din riktiga webbadress (t.ex. `https://kollapengarna.se`) så att `sitemap.xml` och `robots.txt` pekar rätt.
+3. Sätt miljövariabeln `NEXT_PUBLIC_SITE_URL` till din riktiga webbadress (t.ex. `https://kollapengar.se`) så att `sitemap.xml` och `robots.txt` pekar rätt.
 4. Registrera din `sitemap.xml` i **Google Search Console** (gratis) så att Google hittar alla undersidor.
 
 ## Årlig uppdatering (5 min/år)
