@@ -1,7 +1,11 @@
 export const SITE_CONFIG = {
-  name: "KollaPengarna",
+  name: "KollaPengar",
   domainLabel: "KollaPengar.se",
   tagline: "Svenska ekonomikalkylatorer – utan konto, spårning eller reklamkrångel.",
+  publisherName: "Redaktionen på KollaPengar.se",
+  publisherSubtitle: "Oberoende svenska privatekonomiverktyg",
+  contactEmail: "kontakt@kollapengar.se",
+  lastReviewed: "2026-11-14",
   year: 2026,
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://kollapengar.se",
   locale: "sv_SE",

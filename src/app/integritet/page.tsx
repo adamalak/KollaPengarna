@@ -17,7 +17,7 @@ export default function IntegritetPage() {
           Integritetspolicy &amp; Ansvarsfriskrivning
         </h1>
         <p className="font-mono-num mt-2 text-xs text-stone-500">
-          Senast uppdaterad: {SITE_CONFIG.year}
+          Senast granskad &amp; uppdaterad: {SITE_CONFIG.lastReviewed}
         </p>
 
         <div className="mt-8 space-y-6 text-sm leading-relaxed text-stone-700">
@@ -74,6 +74,27 @@ export default function IntegritetPage() {
                 CSN
               </a>{" "}
               och respektive kreditgivare.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-base font-bold text-zinc-900">
+              5. Avsändare, metod &amp; kontakt
+            </h2>
+            <p className="mt-2">
+              {SITE_CONFIG.domainLabel} drivs av {SITE_CONFIG.publisherName} (
+              {SITE_CONFIG.publisherSubtitle}). Du når oss på{" "}
+              <a
+                href={`mailto:${SITE_CONFIG.contactEmail}`}
+                className="font-mono-num font-medium text-[#0B4F3F] underline"
+              >
+                {SITE_CONFIG.contactEmail}
+              </a>
+              .{" "}
+              <Link href="/om" className="font-medium text-[#0B4F3F] underline">
+                Läs mer om vår metod, årliga uppdatering och primärkällor
+              </Link>
+              .
             </p>
           </section>
 

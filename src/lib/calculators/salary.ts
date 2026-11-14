@@ -1,15 +1,48 @@
 import { clampNumber } from "../format";
 import municipalitiesRaw from "../data/municipalities2026.json";
+import scbBenchmarksRaw from "../data/scbBenchmarks2026.json";
 
 export interface Municipality2026 {
   name: string;
-  municipalTax: number;
+  scbCode: string;
+  countyCode: string;
+  countyName: string;
+  municipalTax: number; // Total kommunal + regional skattesats 2026 (%)
+  municipalityPartTax: number; // Skattesats till kommun 2026 (%)
+  regionPartTax: number; // Skattesats till region 2026 (%)
+  municipalTax2025: number; // Total kommunal + regional skattesats 2025 (%)
+  municipalityPartTax2025: number; // Skattesats till kommun 2025 (%)
+  regionPartTax2025: number; // Skattesats till region 2025 (%)
   burialFee: number;
   avgChurchFee: number;
+  medianIncome2024Annual: number; // SCB sammanräknad förvärvsinkomst, 20-64 år, median kr/år
+  meanIncome2024Annual: number; // SCB sammanräknad förvärvsinkomst, 20-64 år, medel kr/år
+}
+
+export interface ScbRegionBenchmark {
+  code: string;
+  name: string;
+  municipalTax2026: number;
+  municipalityPartTax2026: number;
+  regionPartTax2026: number;
+  municipalTax2025: number;
+  medianIncome2024Annual: number;
+  meanIncome2024Annual: number;
+}
+
+export interface ScbBenchmarks2026 {
+  sourceTaxTable: string;
+  sourceIncomeTable: string;
+  fetchedAt: string;
+  national: ScbRegionBenchmark;
+  counties: Record<string, ScbRegionBenchmark>;
 }
 
 export const MUNICIPALITIES_2026: ReadonlyArray<Municipality2026> =
   municipalitiesRaw as Municipality2026[];
+
+export const SCB_BENCHMARKS_2026: ScbBenchmarks2026 =
+  scbBenchmarksRaw as ScbBenchmarks2026;
 
 /**
  * 2026 Swedish tax constants.

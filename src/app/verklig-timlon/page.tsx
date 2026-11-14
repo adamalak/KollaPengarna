@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SalaryCalculator } from "@/components/calculators/SalaryCalculator";
 import { FaqSection, type FaqItem } from "@/components/FaqSection";
+import { MethodologyNotice } from "@/components/MethodologyNotice";
 import { buildBreadcrumbJsonLd, buildPageMetadata, buildWebAppJsonLd } from "@/lib/seo";
 import { SITE_CONFIG } from "@/lib/siteConfig";
 
@@ -84,19 +85,16 @@ export default function VerkligTimlonPage() {
         </Link>
       </div>
 
-      <div className="mt-4 flex flex-wrap items-center justify-between gap-4 rounded-lg border border-[#DDD9CE] bg-[#FAF9F6] p-5">
-        <p className="text-sm text-stone-600">
-          Pendlar du med SL, SJ, Västtrafik, Skånetrafiken eller Mälartåg och drabbas av försening?
-        </p>
-        <a
-          href="https://reseratt.se"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-sm font-semibold text-[#0B4F3F] hover:underline"
-        >
-          Kolla förseningsersättning &amp; taxigaranti på ReseRätt &rarr;
-        </a>
-      </div>
+      <MethodologyNotice
+        sourceKeys={[
+          "skatteverketSkattesatser",
+          "scbKommunalskatter",
+          "skatteverketJobbskatteavdrag",
+          "skatteverketStatligSkatt",
+          "skatteverketRegler2026",
+        ]}
+        methodologyNote="Beräknad med 2026 års kommunala och regionala skattesatser för alla 290 kommuner, prisbasbelopp (59 200 kr), schabloniserat grund- och jobbskatteavdrag (under 66 år), public service-avgift samt 20 % statlig skatt över 643 000 kr beskattningsbar inkomst."
+      />
     </div>
   );
 }

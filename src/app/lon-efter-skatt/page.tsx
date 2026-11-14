@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { FaqSection, type FaqItem } from "@/components/FaqSection";
+import { MethodologyNotice } from "@/components/MethodologyNotice";
 import { MunicipalDirectory } from "@/components/MunicipalDirectory";
 import { formatPercent } from "@/lib/format";
 import { RANKED_MUNICIPALITIES_2026, SORTED_LOWEST_TAX_2026 } from "@/lib/municipalSeo";
@@ -106,6 +107,16 @@ export default function LonEfterSkattHubPage() {
       <MunicipalDirectory municipalities={RANKED_MUNICIPALITIES_2026} />
 
       <FaqSection title="Vanliga frågor om kommunalskatt 2026" items={FAQ_ITEMS} />
+
+      <MethodologyNotice
+        sourceKeys={[
+          "scbKommunalskatter",
+          "scbInkomster",
+          "skatteverketSkattesatser",
+          "skatteverketStatligSkatt",
+        ]}
+        methodologyNote="Tabellen kombinerar SCB:s statistik över totala kommunala skattesatser (kommun + region, 2025–2026) med Skatteverkets begravnings- och församlingsavgifter samt SCB:s sammanräknade medianförvärvsinkomst för 20–64 år (2024) omräknad per månad avrundat till närmaste 100-tal kr."
+      />
     </div>
   );
 }

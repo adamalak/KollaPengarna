@@ -2,7 +2,9 @@ import { describe, expect, it } from "vitest";
 import {
   getMunicipalityBySlug,
   getMunicipalityInsights,
+  getSalaryTableForMunicipality,
   RANKED_MUNICIPALITIES_2026,
+  roundToNearest100,
 } from "../../municipalSeo";
 import { calculateCompoundIsk, ISK_2026 } from "../compound";
 import { calculateCsn, getCsnFribelopp2026 } from "../csn";
@@ -227,5 +229,38 @@ describe("Programmatic Municipal SEO (290 municipalities)", () => {
     expect(highInsights.annualDiffVsNational35k).toBeLessThan(0);
     expect(lowInsights.faqs[0].question).toContain("Österåker");
     expect(highInsights.faqs[0].question).toContain("Dorotea");
+    expect(lowInsights.sameCountyPeers.length).toBeGreaterThan(0);
+    expect(lowInsights.sameCountyPeers.every((p) => p.countyCode === osteraker?.countyCode)).toBe(
+      true
+    );
+  });
+
+  it("enriches all 290 municipalities with SCB tax split, 2025 delta, county, and rounded typical income", () => {
+    for (const m of RANKED_MUNICIPALITIES_2026) {
+      expect(m.scbCode).toMatch(/^\d{4}$/);
+      expect(m.countyName.length).toBeGreaterThan(3);
+      expect(Math.abs(m.municipalityPartTax + m.regionPartTax - m.municipalTax)).toBeLessThanOrEqual(
+        0.02
+      );
+      expect(m.municipalTax2025).toBeGreaterThan(20);
+      expect(m.medianIncome2024Annual).toBeGreaterThan(200_000);
+      expect(m.typicalMonthlyIncome % 100).toBe(0);
+    }
+
+    expect(roundToNearest100(455200 / 12)).toBe(37900);
+
+    const gotland = getMunicipalityBySlug("gotland");
+    expect(gotland?.isSingleTierGotland).toBe(true);
+    expect(gotland?.regionPartTax).toBe(0);
+    const gotlandInsights = getMunicipalityInsights(gotland!);
+    expect(gotlandInsights.sameCountyPeers).toEqual([]);
+    expect(gotlandInsights.editorialSections.taxStructure).toContain("Region Gotland");
+
+    const stockholm = getMunicipalityBySlug("stockholm");
+    const stockholmRows = getSalaryTableForMunicipality(stockholm!);
+    const typicalRows = stockholmRows.filter((r) => r.isLocalTypical);
+    expect(typicalRows.length).toBe(1);
+    const uniqueGross = new Set(stockholmRows.map((r) => r.grossMonthly));
+    expect(uniqueGross.size).toBe(stockholmRows.length);
   });
 });

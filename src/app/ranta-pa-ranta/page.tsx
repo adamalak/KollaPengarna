@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { CompoundIskCalculator } from "@/components/calculators/CompoundIskCalculator";
 import { FaqSection, type FaqItem } from "@/components/FaqSection";
+import { MethodologyNotice } from "@/components/MethodologyNotice";
 import { buildBreadcrumbJsonLd, buildPageMetadata, buildWebAppJsonLd } from "@/lib/seo";
 import { SITE_CONFIG } from "@/lib/siteConfig";
 
@@ -83,6 +84,16 @@ export default function RantaPaRantaPage() {
           Räkna ut din nettolön i din kommun &rarr;
         </Link>
       </div>
+
+      <MethodologyNotice
+        sourceKeys={[
+          "skatteverketIsk",
+          "riksgaldenStatslaneranta",
+          "regeringenIsk",
+          "riksdagenBetankandeIsk",
+        ]}
+        methodologyNote="ISK-skatten 2026 beräknas med skattefri grundnivå på 300 000 kr per person och 1,065 % schablonskatt (30 % skatt på schablonintäkten 3,55 %, baserad på statslåneräntan 2,55 % per 30 november 2025 + 1,00 procentenhet)."
+      />
     </div>
   );
 }

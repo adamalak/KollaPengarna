@@ -1,10 +1,13 @@
-# KollaPengarna – Svenska ekonomikalkylatorer (2026)
+# KollaPengar – Svenska ekonomikalkylatorer (2026)
 
-En snabb, integritetsvänlig och helt statisk webbapp med tre svenska kalkylatorer:
+En snabb, integritetsvänlig och helt statisk webbapp med fem svenska kalkylatorer och statistik för samtliga 290 kommuner:
 
 1. **CSN Fribelopp-kalkylator 2026** (`/csn-fribelopp`)
-2. **Delbetalningsfällan / Effektiv ränta** (`/delbetalning`)
+2. **CSN Återbetalning & månadskostnad** (`/csn-aterbetalning`)
 3. **Verklig lön efter skatt & pendling 2026** (`/verklig-timlon`)
+4. **Ränta på ränta med ISK-skatt** (`/ranta-pa-ranta`)
+5. **Delbetalningsfällan / Effektiv ränta** (`/delbetalning`)
+6. **Kommunalskatt & lön efter skatt i alla 290 kommuner** (`/lon-efter-skatt`)
 
 All kod körs 100 % i användarens webbläsare utan databas, utan AI-API-kostnader och utan spårningscookies.
 

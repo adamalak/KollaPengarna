@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { CsnRepaymentCalculator } from "@/components/calculators/CsnRepaymentCalculator";
 import { FaqSection, type FaqItem } from "@/components/FaqSection";
+import { MethodologyNotice } from "@/components/MethodologyNotice";
 import { buildBreadcrumbJsonLd, buildPageMetadata, buildWebAppJsonLd } from "@/lib/seo";
 import { SITE_CONFIG } from "@/lib/siteConfig";
 
@@ -83,6 +84,11 @@ export default function CsnAterbetalningPage() {
           Simulera Ränta på ränta &amp; ISK 2026 &rarr;
         </Link>
       </div>
+
+      <MethodologyNotice
+        sourceKeys={["csnRanta", "csnFribelopp"]}
+        methodologyNote="Modellen använder 2026 års fastställda CSN-ränta på 2,135 %, schablonmässig 2 % årlig uppräkning av årsbeloppet, 150 kr/år i expeditionsavgift samt en återbetalningstid på upp till 25 år (längst t.o.m. det år man fyller 64 år)."
+      />
     </div>
   );
 }

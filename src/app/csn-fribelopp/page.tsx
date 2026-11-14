@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { CsnCalculator } from "@/components/calculators/CsnCalculator";
 import { FaqSection, type FaqItem } from "@/components/FaqSection";
+import { MethodologyNotice } from "@/components/MethodologyNotice";
 import { CSN_2026_FRIBELOPP_ANCHORS } from "@/lib/calculators/csn";
 import { formatSEK } from "@/lib/format";
 import { buildBreadcrumbJsonLd, buildPageMetadata, buildWebAppJsonLd } from "@/lib/seo";
@@ -131,6 +132,11 @@ export default function CsnFribeloppPage() {
           Öppna CSN Återbetalning {SITE_CONFIG.year} &rarr;
         </Link>
       </div>
+
+      <MethodologyNotice
+        sourceKeys={["csnFribelopp", "csnRanta"]}
+        methodologyNote="Beräkningen utgår från CSN:s officiella fribeloppstabeller för 2026 (bl.a. 114 676 kr för 20 veckors heltidsstudier), veckobelopp vid 100 %, 75 % och 50 % studietakt samt 61 % nedsättning på överskjutande bruttoinkomst per kalenderhalvår."
+      />
     </div>
   );
 }

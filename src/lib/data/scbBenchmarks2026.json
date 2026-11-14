@@ -1,0 +1,227 @@
+{
+  "sourceTaxTable": "SCB OE0101 / Kommunalskatter2000 (2025–2026)",
+  "sourceIncomeTable": "SCB HE0110A / SamForvInk1 (2024, 20–64 år, totalt)",
+  "fetchedAt": "2026-11-14",
+  "national": {
+    "code": "00",
+    "name": "Riket",
+    "municipalTax2026": 32.38,
+    "municipalityPartTax2026": 20.69,
+    "regionPartTax2026": 11.69,
+    "municipalTax2025": 32.41,
+    "medianIncome2024Annual": 401400,
+    "meanIncome2024Annual": 426800
+  },
+  "counties": {
+    "10": {
+      "code": "10",
+      "name": "Blekinge län",
+      "municipalTax2026": 33.73,
+      "municipalityPartTax2026": 21.69,
+      "regionPartTax2026": 12.04,
+      "municipalTax2025": 33.79,
+      "medianIncome2024Annual": 393300,
+      "meanIncome2024Annual": 398700
+    },
+    "12": {
+      "code": "12",
+      "name": "Skåne län",
+      "municipalTax2026": 31.8,
+      "municipalityPartTax2026": 20.62,
+      "regionPartTax2026": 11.18,
+      "municipalTax2025": 31.81,
+      "medianIncome2024Annual": 385500,
+      "meanIncome2024Annual": 409200
+    },
+    "13": {
+      "code": "13",
+      "name": "Hallands län",
+      "municipalTax2026": 32.39,
+      "municipalityPartTax2026": 20.99,
+      "regionPartTax2026": 11.4,
+      "municipalTax2025": 32.44,
+      "medianIncome2024Annual": 406100,
+      "meanIncome2024Annual": 428000
+    },
+    "14": {
+      "code": "14",
+      "name": "Västra Götalands län",
+      "municipalTax2026": 32.83,
+      "municipalityPartTax2026": 21.35,
+      "regionPartTax2026": 11.48,
+      "municipalTax2025": 32.84,
+      "medianIncome2024Annual": 404900,
+      "meanIncome2024Annual": 420100
+    },
+    "17": {
+      "code": "17",
+      "name": "Värmlands län",
+      "municipalTax2026": 34.06,
+      "municipalityPartTax2026": 21.78,
+      "regionPartTax2026": 12.28,
+      "municipalTax2025": 34.08,
+      "medianIncome2024Annual": 387000,
+      "meanIncome2024Annual": 390400
+    },
+    "18": {
+      "code": "18",
+      "name": "Örebro län",
+      "municipalTax2026": 33.94,
+      "municipalityPartTax2026": 21.64,
+      "regionPartTax2026": 12.3,
+      "municipalTax2025": 33.97,
+      "medianIncome2024Annual": 384400,
+      "meanIncome2024Annual": 387600
+    },
+    "19": {
+      "code": "19",
+      "name": "Västmanlands län",
+      "municipalTax2026": 31.97,
+      "municipalityPartTax2026": 21.09,
+      "regionPartTax2026": 10.88,
+      "municipalTax2025": 31.97,
+      "medianIncome2024Annual": 391700,
+      "meanIncome2024Annual": 402900
+    },
+    "20": {
+      "code": "20",
+      "name": "Dalarnas län",
+      "municipalTax2026": 34.18,
+      "municipalityPartTax2026": 22.19,
+      "regionPartTax2026": 11.99,
+      "municipalTax2025": 34.18,
+      "medianIncome2024Annual": 389100,
+      "meanIncome2024Annual": 393900
+    },
+    "21": {
+      "code": "21",
+      "name": "Gävleborgs län",
+      "municipalTax2026": 33.54,
+      "municipalityPartTax2026": 22.03,
+      "regionPartTax2026": 11.51,
+      "municipalTax2025": 33.54,
+      "medianIncome2024Annual": 383200,
+      "meanIncome2024Annual": 388700
+    },
+    "22": {
+      "code": "22",
+      "name": "Västernorrlands län",
+      "municipalTax2026": 34.09,
+      "municipalityPartTax2026": 22.8,
+      "regionPartTax2026": 11.29,
+      "municipalTax2025": 34.14,
+      "medianIncome2024Annual": 397200,
+      "meanIncome2024Annual": 402600
+    },
+    "23": {
+      "code": "23",
+      "name": "Jämtlands län",
+      "municipalTax2026": 34,
+      "municipalityPartTax2026": 22.3,
+      "regionPartTax2026": 11.7,
+      "municipalTax2025": 34.01,
+      "medianIncome2024Annual": 382200,
+      "meanIncome2024Annual": 389800
+    },
+    "24": {
+      "code": "24",
+      "name": "Västerbottens län",
+      "municipalTax2026": 34.7,
+      "municipalityPartTax2026": 22.85,
+      "regionPartTax2026": 11.85,
+      "municipalTax2025": 34.2,
+      "medianIncome2024Annual": 397800,
+      "meanIncome2024Annual": 398100
+    },
+    "25": {
+      "code": "25",
+      "name": "Norrbottens län",
+      "municipalTax2026": 33.92,
+      "municipalityPartTax2026": 22.58,
+      "regionPartTax2026": 11.34,
+      "municipalTax2025": 33.92,
+      "medianIncome2024Annual": 421700,
+      "meanIncome2024Annual": 427400
+    },
+    "01": {
+      "code": "01",
+      "name": "Stockholms län",
+      "municipalTax2026": 30.82,
+      "municipalityPartTax2026": 18.49,
+      "regionPartTax2026": 12.33,
+      "municipalTax2025": 30.91,
+      "medianIncome2024Annual": 435800,
+      "meanIncome2024Annual": 493400
+    },
+    "03": {
+      "code": "03",
+      "name": "Uppsala län",
+      "municipalTax2026": 32.99,
+      "municipalityPartTax2026": 21.28,
+      "regionPartTax2026": 11.71,
+      "municipalTax2025": 33,
+      "medianIncome2024Annual": 391300,
+      "meanIncome2024Annual": 401200
+    },
+    "04": {
+      "code": "04",
+      "name": "Södermanlands län",
+      "municipalTax2026": 32.68,
+      "municipalityPartTax2026": 21.85,
+      "regionPartTax2026": 10.83,
+      "municipalTax2025": 32.69,
+      "medianIncome2024Annual": 384600,
+      "meanIncome2024Annual": 390400
+    },
+    "05": {
+      "code": "05",
+      "name": "Östergötlands län",
+      "municipalTax2026": 32.79,
+      "municipalityPartTax2026": 21.24,
+      "regionPartTax2026": 11.55,
+      "municipalTax2025": 32.8,
+      "medianIncome2024Annual": 389100,
+      "meanIncome2024Annual": 396600
+    },
+    "06": {
+      "code": "06",
+      "name": "Jönköpings län",
+      "municipalTax2026": 33.62,
+      "municipalityPartTax2026": 21.86,
+      "regionPartTax2026": 11.76,
+      "municipalTax2025": 33.62,
+      "medianIncome2024Annual": 390900,
+      "meanIncome2024Annual": 394700
+    },
+    "07": {
+      "code": "07",
+      "name": "Kronobergs län",
+      "municipalTax2026": 32.86,
+      "municipalityPartTax2026": 20.86,
+      "regionPartTax2026": 12,
+      "municipalTax2025": 32.86,
+      "medianIncome2024Annual": 382900,
+      "meanIncome2024Annual": 385500
+    },
+    "08": {
+      "code": "08",
+      "name": "Kalmar län",
+      "municipalTax2026": 33.77,
+      "municipalityPartTax2026": 21.91,
+      "regionPartTax2026": 11.86,
+      "municipalTax2025": 33.77,
+      "medianIncome2024Annual": 383100,
+      "meanIncome2024Annual": 384800
+    },
+    "09": {
+      "code": "09",
+      "name": "Gotlands län",
+      "municipalTax2026": 33.6,
+      "municipalityPartTax2026": 33.6,
+      "regionPartTax2026": 0,
+      "municipalTax2025": 33.6,
+      "medianIncome2024Annual": 373600,
+      "meanIncome2024Annual": 373900
+    }
+  }
+}

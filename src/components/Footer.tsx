@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/siteConfig";
+import { PRIMARY_SOURCES } from "@/lib/sources";
 
 export function Footer() {
   return (
@@ -9,20 +10,26 @@ export function Footer() {
           <div>
             <p className="font-serif text-lg font-bold text-[#0B4F3F]">{SITE_CONFIG.domainLabel}</p>
             <p className="mt-2 text-sm leading-relaxed text-stone-600">
-              Oberoende svenska kalkylatorer för lön, skatt, CSN och sparande. All beräkning sker
-              lokalt i din webbläsare utan databas eller spårning.
+              {SITE_CONFIG.publisherSubtitle}. All beräkning sker lokalt i din webbläsare utan
+              databas, konto eller spårningscookies.
             </p>
-            <p className="mt-3 text-xs text-stone-500">
-              Syskonprojekt:{" "}
-              <a
-                href="https://reseratt.se"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-[#0B4F3F] underline"
-              >
-                ReseRätt – Ersättning vid tåg- &amp; flygförsening
-              </a>
-            </p>
+            <div className="mt-3 space-y-1 text-xs text-stone-600">
+              <p>
+                <strong>Avsändare:</strong> {SITE_CONFIG.publisherName}
+              </p>
+              <p>
+                <strong>Kontakt:</strong>{" "}
+                <a
+                  href={`mailto:${SITE_CONFIG.contactEmail}`}
+                  className="font-mono-num font-medium text-[#0B4F3F] underline"
+                >
+                  {SITE_CONFIG.contactEmail}
+                </a>
+              </p>
+              <p className="font-mono-num text-[11px] text-stone-500">
+                Senast granskad: {SITE_CONFIG.lastReviewed}
+              </p>
+            </div>
           </div>
 
           <div>
@@ -47,9 +54,14 @@ export function Footer() {
 
           <div>
             <p className="text-xs font-semibold tracking-wider text-stone-500 uppercase">
-              Källor &amp; trygghet
+              Om, metod &amp; primärkällor
             </p>
             <ul className="mt-3 space-y-2 text-sm text-stone-700">
+              <li>
+                <Link href="/om" className="font-semibold text-[#0B4F3F] hover:underline">
+                  Om {SITE_CONFIG.name} – Metod &amp; källor
+                </Link>
+              </li>
               <li>
                 <Link href="/integritet" className="hover:text-[#0B4F3F] hover:underline">
                   Integritetspolicy &amp; ansvarsfriskrivning
@@ -57,32 +69,42 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.csn.se"
+                  href={PRIMARY_SOURCES.skatteverketIsk.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#0B4F3F] hover:underline"
                 >
-                  CSN.se – Studiemedel &amp; ränta
+                  Skatteverket – ISK &amp; 300 000 kr gräns
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.skatteverket.se"
+                  href={PRIMARY_SOURCES.scbKommunalskatter.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#0B4F3F] hover:underline"
                 >
-                  Skatteverket.se – Skattesatser &amp; ISK
+                  SCB – Kommunala skattesatser {SITE_CONFIG.year}
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.konsumentverket.se"
+                  href={PRIMARY_SOURCES.csnRanta.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#0B4F3F] hover:underline"
                 >
-                  Konsumentverket.se – Konsumentkrediter
+                  CSN – Ränta &amp; fribelopp {SITE_CONFIG.year}
+                </a>
+              </li>
+              <li>
+                <a
+                  href={PRIMARY_SOURCES.konsumentverketKredit.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#0B4F3F] hover:underline"
+                >
+                  Konsumentverket – Effektiv ränta
                 </a>
               </li>
             </ul>

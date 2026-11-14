@@ -82,6 +82,13 @@ export function Navbar() {
               );
             })}
             <Link
+              href="/om"
+              onClick={() => setMobileOpen(false)}
+              className="py-2.5 text-sm font-medium text-[#0B4F3F]"
+            >
+              Om, metod &amp; primärkällor
+            </Link>
+            <Link
               href="/integritet"
               onClick={() => setMobileOpen(false)}
               className="py-2.5 text-sm text-stone-600"

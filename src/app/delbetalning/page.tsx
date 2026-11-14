@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { InstallmentCalculator } from "@/components/calculators/InstallmentCalculator";
 import { FaqSection, type FaqItem } from "@/components/FaqSection";
+import { MethodologyNotice } from "@/components/MethodologyNotice";
 import { buildBreadcrumbJsonLd, buildPageMetadata, buildWebAppJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -99,6 +100,11 @@ export default function DelbetalningPage() {
       </section>
 
       <FaqSection title="Vanliga frågor om delbetalning & effektiv ränta" items={FAQ_ITEMS} />
+
+      <MethodologyNotice
+        sourceKeys={["konsumentverketKredit"]}
+        methodologyNote="Effektiv årsränta (APR) beräknas enligt konsumentkreditlagens och EU-direktivets nuvärdesekvation, där både nominell ränta, uppläggningsavgift och månatliga aviavgifter räknas in över kreditperioden."
+      />
     </div>
   );
 }

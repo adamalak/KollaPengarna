@@ -103,6 +103,14 @@ export default function HomePage() {
               Jämför kommunalskatt i alla 290 kommuner &rarr;
             </Link>
           </p>
+          <p className="mt-2">
+            <Link
+              href="/om"
+              className="text-xs font-medium text-stone-600 hover:text-[#0B4F3F] hover:underline"
+            >
+              Så granskas våra siffror &amp; alla primärkällor &rarr;
+            </Link>
+          </p>
         </div>
 
         <div className="rounded-lg border border-[#DDD9CE] bg-white lg:col-span-7">
